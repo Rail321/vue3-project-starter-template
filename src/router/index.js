@@ -7,7 +7,17 @@ const routes = [
     path: '/',
     name: 'Main page',
     component: MainPage,
-  }
+  },
+  {
+    path: '/components',
+    name: 'Components',
+    component: () => import('@/pages/ComponentsPage'),
+  },
+  {
+    path: '/components/file-input',
+    name: 'File input',
+    component: () => import('@/pages/ComponentsPage/pages/FileInputPage'),
+  },
 ]
 
 const router = createRouter({

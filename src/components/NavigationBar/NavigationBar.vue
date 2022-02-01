@@ -1,11 +1,10 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
+    <div class="container">
       <router-link class="navbar-brand" to="/">Main page</router-link>
 
       <div class="navbar-nav">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Features</a>
+        <router-link class="nav-link" to="/components">Components</router-link>
       </div>
     </div>
   </nav>
