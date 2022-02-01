@@ -3,7 +3,8 @@
     <h1>Components</h1>
 
     <ul class="list-group">
-      <router-link class="list-group-item list-group-item-action active" to="/components/file-input">File Input</router-link>
+      <router-link class="list-group-item list-group-item-action" to="/components/file-input">File Input</router-link>
+      <router-link class="list-group-item list-group-item-action active" to="/components/drag-file-input">Drag file Input</router-link>
       <router-link class="list-group-item list-group-item-action disabled" to="/components">...</router-link>
     </ul>
   </default-layout>

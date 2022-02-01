@@ -1,0 +1,36 @@
+.file-item {
+  transition: 0.25s background-color;
+  color: #1c1939;
+
+  padding: 3.5px 4px;
+  width: 100%;
+  max-width: 400px;
+
+  &:hover {
+    background-color: #f8f9fa;
+  }
+
+  &__body {
+    font-family: "Abel", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 125%;
+  }
+
+  &__svg {
+    display: block;
+  }
+
+  &__icon_delete {
+    cursor: pointer;
+  }
+
+  &_error {
+    color: #dc3545;
+
+    path {
+      fill: #dc3545;
+    }
+  }
+}

@@ -18,6 +18,11 @@ const routes = [
     name: 'File input',
     component: () => import('@/pages/ComponentsPage/pages/FileInputPage'),
   },
+  {
+    path: '/components/drag-file-input',
+    name: 'Drag file input',
+    component: () => import('@/pages/ComponentsPage/pages/DragFileInputPage'),
+  },
 ]
 
 const router = createRouter({
