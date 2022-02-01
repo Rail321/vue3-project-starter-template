@@ -1,6 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-const routes = []
+import MainPage from '../pages/MainPage'
+
+const routes = [
+  {
+    path: '/',
+    name: 'Main page',
+    component: MainPage,
+  }
+]
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
